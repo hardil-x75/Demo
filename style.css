@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top, #0f172a, #020617);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background: rgba(15, 23, 42, 0.9);
+    padding: 25px;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 0 25px cyan;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: cyan;
+    text-shadow: 0 0 10px cyan;
+}
+
+/* Input */
+.input-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #1e293b;
+    color: white;
+}
+
+/* Button */
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: cyan;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #22d3ee;
+    box-shadow: 0 0 10px cyan;
+}
+
+/* Task List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #1e293b;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+}
+
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* Delete button */
+.delete {
+    background: red;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* XP */
+.xp-box {
+    margin-top: 15px;
+    font-size: 18px;
+    color: lime;
+}
